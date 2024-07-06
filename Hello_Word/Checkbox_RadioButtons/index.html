@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu Formulário</h1>
+    <form action="https://formspree.io/f/mjkbvwdl" method="post">
+        <input placeholder="Digite o Seu E-mail" type="text" required name="Nome">
+        <label>Texto aleatório</label>
+        <textarea placeholder="Digite qual produto personalizado deseja" name="Area do texto" required rows="5" cols="10"></textarea>
+    
+        <br>
+        <!-- teste de como marcar um checkbox/checklist  -->
+        <label> Escolha o esporte que voce pratica:</label>
+            <ul>
+                <li><input value="SIM" name="judo" type="checkbox">Judô</li>
+                <li><input value="SIM" name="futebol" type="checkbox">Futebol</li>
+            </ul>
+    
+        <p>
+
+        <!-- teste de como marcar apenas uma unica opção -->
+        <label>Escolha sua cor Favorita: </label><br>
+        <ul>
+            <li><input value="VERMELHO" name="corFavorita" type="radio">Vermelho</li>
+            <li><input value="AMARELO" name="corFavorita" type="radio">Amarelo</li>
+            <li><input value="VERDE" name="corFavorita" type="radio">Verde</li>
+        </ul>
+        </p>
+
+        <!-- Selecionar opções listadas! -->
+        <p>
+            <label>Escolha sua cidade</label><br>
+            <select>
+                <option>São Paulo</option>
+                <option>Curitiba</option>
+                <option>Manaus</option>
+            </select>
+        </p>
+        <!-- Lembrar de colocar o "Button" sempre dentro do form kk 
+         Sempre especificar o que o botão vai fazer tambem com o atributo type!-->
+        <button type="submit">Enviar Dados</button>
+    </form>
+</body>
+</html>

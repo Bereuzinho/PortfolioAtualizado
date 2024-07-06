@@ -1,0 +1,67 @@
+#header{
+    background-color: rgb(201, 134, 134);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+    text-transform: uppercase;
+}
+
+#nameAndTitle{
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactList{
+    list-style-type: none;
+    text-align: center;
+}
+
+#container{
+    display: grid;
+    padding-top: 5px;
+    grid-template-columns: 30% auto;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card{
+    font-family: 'Hubballi', cursive;
+    text-transform: uppercase;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    align-items: space-between;
+    padding-bottom: 30px;
+    font-family: 'Hubballi',cursive;
+}
+
+.formulario{
+    background-color: #eaeaea;
+    font-family: 'Hubballi',cursive;
+    font-size: 16px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+    height: 18px;
+}
+
+button{
+    background-color: rgb(201, 134, 134);
+    font-family: 'Hubballi',cursive;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+    height: 30px;
+    margin-top: 15px ;
+}

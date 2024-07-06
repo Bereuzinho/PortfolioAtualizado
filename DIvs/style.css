@@ -1,0 +1,21 @@
+#div1{
+    background-color: #000;
+    width: 400px;
+    height: 400px;
+}
+#div2{
+    background-color: #000;
+    width: 400px;
+    height: 400px;
+}
+#div3{
+    background-color: #000;
+    width: 400px;
+    height: 400px;
+}
+.allDivs{
+    border-radius: 30%;
+}
+h1{
+    font-size: 40px;
+}
