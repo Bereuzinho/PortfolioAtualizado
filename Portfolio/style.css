@@ -104,3 +104,165 @@ a{
 div{
     padding: 30px;
 }
+
+a img:hover{
+    transition: transform 0.5s;
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width:600px){
+
+    div{
+        border: 1px solid red;
+    }
+
+    body{
+        margin: auto;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        padding: auto;
+        border: auto;
+    }
+
+    #header1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    #header2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    #conheca1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    #meuNome{
+       font-size: 30px;
+    }
+
+    .conheca2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    #cliente0{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 50%;
+    }
+
+    #cliente1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 50%;
+    }
+
+    #cliente2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 50%;
+    }
+
+    #cliente3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 50%;
+    }
+    
+    #fechamento{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    #portfolio{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    img{
+        width: 80%;
+    }
+    form{
+        width: 80%;
+    }
+
+    form input{
+        width: 80%;
+    }
+
+    svg{
+        width: 50%;;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 28px;
+    }
+
+    #header1 p{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    #header1 b{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .trabalhos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+}
