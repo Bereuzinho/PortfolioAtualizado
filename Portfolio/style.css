@@ -110,6 +110,13 @@ a img:hover{
     transform: scale(1.5);
 }
 
+.imgPortfolio{
+    width: 260px;
+    height: 170px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
 @media only screen and (max-width:600px){
 
 
