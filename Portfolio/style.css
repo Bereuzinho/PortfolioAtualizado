@@ -1,7 +1,18 @@
+.dark {
+    --text-white: #e6e6e6;
+    --text-dark: #ffffff;
+  
+    --bg-grey-light: #142136;
+    --bg-white: #22395d;
+    --bg-blue-dark: #142136;
+    --bg-indigo: #7577e1;
+}
+
 body{
     margin-left: 15% ;
     margin-right: 15%;
     font-family: 'Montserrat',cursive;
+    transition: 0.5s;
 }
 
 html{
@@ -111,11 +122,58 @@ a img:hover{
 }
 
 .imgPortfolio{
-    width: 260px;
-    height: 170px;
+    width: 200px;
+    height: 150px;
     margin-top: 30px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgb(139, 139, 139);
+}
+
+#mode{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.trilho{
+    width: 100px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border: 1px solid black;
+}
+
+.trilho .indicador{
+    width: 39px;
+    height: 39px;
+    background-color: #b4b4b4;
+    border-radius: 50%;
+    transform:scale(.9);
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    left: 0px;
+    transition: .5s;
+}
+
+.trilho.dark{
+    background-color: #777777;
+}
+
+.trilho.dark .indicador{
+    left: 32px;
+    background-color: #303030;
+}
+
+body.dark{
+    background-color: #303030;
+    color: #fff;
 }
 
 @media only screen and (max-width:600px){
@@ -146,6 +204,15 @@ a img:hover{
     #header2{
         display: flex;
         flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
         height: auto;
         margin: auto;
         padding: auto;
@@ -269,5 +336,5 @@ a img:hover{
         margin: auto;
         padding: auto;
         width: 80%;
-    }
+    }    
 }
